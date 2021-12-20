@@ -65,7 +65,7 @@ Content-Type: application/vnd.api+json
 {"jsonapi":{"version":"1.0"},"data":{"type":"client","id":"apitester"}}
 ```
 
-### Valid authentication
+### Invalid authentication
 
 * Missing `Authorization` header
 
