@@ -11,8 +11,8 @@ For the latest version of this documentation please visit [https://github.com/lh
 ### General information
 
 * [Content type](docs/ContentType.md)
-* [Error handling](docs/ErrorHandling.md)
 * [Authentication](docs/Authentication.md)
+* [Error handling](docs/ErrorHandling.md)
 * [Testing the API](docs/Testing.md)
 
 ### Endpoints
