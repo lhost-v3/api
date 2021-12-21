@@ -49,9 +49,14 @@
 | `height` | Package height   | number | (³)(⁶)                                           | required     |
 | `units`  | Dimensions units | number | Currently the only accepted value is 1, for "KG" | required     |
 
-(¹) Data containing special characters will be rejected;  
-(²) For `US`, `phone` should start with 1 and contain 11 digits;  
-(³) Numbers containing non-numeric characters will be rejected; Please make sure to use the point (`.`) as decimal separator;  
+(¹) Data containing special characters will be rejected;
+
+(²) For `US`, `phone` should start with 1 and contain 11 digits;
+
+(³) Numbers containing non-numeric characters will be rejected; Please make sure to use the point (`.`) as decimal separator;
+
 (⁴) `state` is required only for the following countries: IT, CA, US;
+
 (⁵) For the `shipTo` address, only the `country` and `email` fields are required; all others are optional and can be omitted;
-(⁶) Any value using a fractional part must use a period as the decimal separator;  
+
+(⁶) Any value using a fractional part must use a period as the decimal separator;
