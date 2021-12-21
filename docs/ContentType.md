@@ -15,7 +15,7 @@ For more information please visit [JSON:API &mdash; A specification for building
 
 ## Examples
 
-An example of the structure of a request data for the `/shipments` endpoint would be:
+An complete example of the structure of a request data for the `/shipments` endpoint with all of the possible fields would be:
 
 ```json
 {
