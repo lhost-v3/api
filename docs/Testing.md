@@ -4,7 +4,7 @@ Testing the API could be done by using an API client software like (example: [Po
 
 Some examples of browser extensions:  
 
-* [Restlet Client](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm  ) (Google Chrome)  
+* [Talend API Tester](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm  ) (Google Chrome)  
 * [RESTClient](https://addons.mozilla.org/en-US/firefox/addon/restclient/) (Mozilla Firefox)
 
 ---
