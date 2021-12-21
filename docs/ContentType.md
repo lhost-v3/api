@@ -65,5 +65,3 @@ An complete example of the structure of a request data for the `/shipments` endp
     }
 }
 ```
-
-Please see https://jsonapi.org for more information.
