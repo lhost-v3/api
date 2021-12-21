@@ -5,7 +5,7 @@ Authentication is done via a `JSON Web Token` (`JWT`) sent via a Bearer Authoriz
 ## SSL
 
 SSL is required for all API calls.
-The APi will return a `400 Bad Request` in case SSL is not used.
+The API will return a `400 Bad Request` in case SSL is not used.
 
 ## JWT
 
