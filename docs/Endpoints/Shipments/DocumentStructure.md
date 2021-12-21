@@ -15,16 +15,16 @@
 
 | Name         | Description          | Type   | Format                                            | Restrictions | Maximum length |
 |--------------|----------------------|--------|---------------------------------------------------|--------------|----------------|
-| `name`       | Name                 | string | Basic Latin string with no special characters (¹) | required     | 35             |
-| `address1`   | Address              | string | Basic Latin string with no special characters (¹) | required     | 30             |
-| `address2`   | Address              | string | Basic Latin string with no special characters (¹) | optional     | 30             |
-| `city`       | City                 | string | Basic Latin string with no special characters (¹) | required     | 30             |
-| `postalCode` | Postal code          | string |                                                   | required     | 30             |
+| `name`       | Name                 | string | Basic Latin string with no special characters (¹) | required (⁵) | 35             |
+| `address1`   | Address              | string | Basic Latin string with no special characters (¹) | required (⁵) | 30             |
+| `address2`   | Address              | string | Basic Latin string with no special characters (¹) | optional (⁵) | 30             |
+| `city`       | City                 | string | Basic Latin string with no special characters (¹) | required (⁵) | 30             |
+| `postalCode` | Postal code          | string |                                                   | required (⁵) | 30             |
 | `state`      | State / province     | string | 2 letter ISO Alpha-2 code                         | required (⁴) | 20             |
-| `country`    | Country              | string | 2 letter ISO Alpha-2 code                         | required     | 2              |
-| `contact`    | Contact name         | string | Basic Latin string with no special characters (¹) | required     | 35             |
-| `phone`      | Contact phone number | number | (²)(³)                                            | optional     | 25             |
-| `email`      | Contact email        | string |                                                   | required     | 50             |
+| `country`    | Country              | string | 2 letter ISO Alpha-2 code                         | required (⁵) | 2              |
+| `contact`    | Contact name         | string | Basic Latin string with no special characters (¹) | required (⁵) | 35             |
+| `phone`      | Contact phone number | number | (²)(³)                                            | optional (⁵) | 25             |
+| `email`      | Contact email        | string |                                                   | required (⁵) | 50             |
 
 ## `package` object structure
 
@@ -52,5 +52,6 @@
 (¹) Data containing special characters will be rejected;  
 (²) For `US`, `phone` should start with 1 and contain 11 digits;  
 (³) Numbers containing non-numeric characters will be rejected; Please make sure to use the point (`.`) as decimal separator;  
-(⁴) `state` is required only for the following countries: IT, CA, US;  
+(⁴) `state` is required only for the following countries: IT, CA, US;
+(⁵) For the `shipTo` address, only the `country` and `email` fields are required; all others are optional and can be omitted;
 (⁶) Any value using a fractional part must use a period as the decimal separator;  
