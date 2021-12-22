@@ -27,3 +27,7 @@ For the latest version of this documentation please visit [https://github.com/lh
     * [`/shipments`](docs/Endpoints/Shipments/Shipments.md)
 
 ---
+
+## Contact
+
+For any information, or to request a test user, please contact Carlo Belloni / Italia Multimedia Srl: `carlo@italiamultimedia.com`.
