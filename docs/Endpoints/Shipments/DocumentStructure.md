@@ -9,7 +9,7 @@
 | `packages`         | One or more `package` objects      | `package` object |                 | required      |         |
 | `goodsDescription` | Description of items being shipped | string           |                 | required      |         |
 
-(*) except when the API client belongs to an already registered resort, in which case it can be omitted (will be ingored);
+(*) except when the API client belongs to an already registered resort, in which case it can be omitted (will be ignored);
 
 ## `address` object structure
 
