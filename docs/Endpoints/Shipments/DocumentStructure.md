@@ -4,8 +4,8 @@
 
 | Name               | Description                        | Type             | Format          | Restrictions  | Default |
 |--------------------|------------------------------------|------------------|-----------------|---------------|---------|
-| `shipFrom`         | Sender address                     | `address` object |                 | required      |         |
-| `shipTo`           | Receiver address                   | `address` object |                 | required (*)  |         |
+| `shipFrom`         | Sender address                     | `address` object |                 | required (*)  |         |
+| `shipTo`           | Receiver address                   | `address` object |                 | required      |         |
 | `packages`         | One or more `package` objects      | `package` object |                 | required      |         |
 | `goodsDescription` | Description of items being shipped | string           |                 | required      |         |
 
