@@ -4,7 +4,7 @@
 
 ## LHost API Documentation
 
-For the latest version of this documentation please visit [https://lhost-v3.github.io/api/](https://lhost-v3.github.io/api/)
+For the latest version of this documentation please visit [https://github.com/lhost-v3/api](https://github.com/lhost-v3/api)
 
 ---
 
