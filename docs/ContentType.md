@@ -65,3 +65,7 @@ An complete example of the structure of a request data for the `/shipments` endp
     }
 }
 ```
+
+---
+
+[README](../README.md)

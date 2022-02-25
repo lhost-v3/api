@@ -5,11 +5,15 @@
 
 The request `JSON API` document should contain a `shipment` object as the document's `data` member.
 
-[Examples](/docs/Endpoints/Shipments/Examples.md)
+[Examples](Examples.md)
 
 ---
 
 ## Resources
 
-* [Document Structure](/docs/Endpoints/Shipments/DocumentStructure.md)
-* [Response](/docs/Endpoints/Shipments/Response.md)
+* [Document Structure](DocumentStructure.md)
+* [Response](Response.md)
+
+---
+
+[README](../../../README.md)

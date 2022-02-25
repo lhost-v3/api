@@ -60,3 +60,7 @@
 (⁵) For the `shipTo` address, only the `country` and `email` fields are required; all others are optional and can be omitted;
 
 (⁶) Any value using a fractional part must use a period as the decimal separator;
+
+---
+
+[README](../../../README.md)
