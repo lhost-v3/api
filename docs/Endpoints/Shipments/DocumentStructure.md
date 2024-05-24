@@ -5,7 +5,7 @@
 | Name               | Description                        | Type             | Format          | Restrictions  | Default |
 |--------------------|------------------------------------|------------------|-----------------|---------------|---------|
 | `shipFrom`         | Sender address                     | `address` object |                 | required (*)  |         |
-| `shipTo`           | Receiver address                   | `address` object |                 | required      |         |
+| `shipTo`           | Receiver address                   | `address` object |                 | required (**) |         |
 | `packages`         | One or more `package` objects      | `package` object |                 | required      |         |
 | `goodsDescription` | Description of items being shipped | string           |                 | required      |         |
 
@@ -57,7 +57,7 @@
 
 (⁴) `state` is required only for the following countries: IT, CA, US;
 
-(⁵) For the `shipTo` address, only the `country` and `email` fields are required; all others are optional and can be omitted;
+(⁵) For the `shipTo` address, only the `country` and `email` fields are required; all others are optional and can be omitted (they will be ignored);
 
 (⁶) Any value using a fractional part must use a period as the decimal separator;
 
