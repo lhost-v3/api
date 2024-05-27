@@ -23,7 +23,7 @@
 | `state`      | State / province     | string | 2 letter ISO Alpha-2 code                         | required (⁴) | 20             |
 | `country`    | Country              | string | 2 letter ISO Alpha-2 code                         | required (⁵) | 2              |
 | `contact`    | Contact name         | string | Basic Latin string with no special characters (¹) | required (⁵) | 35             |
-| `phone`      | Contact phone number | number | (²)(³)                                            | optional (⁵) | 25             |
+| `phone`      | Contact phone number | number | (⁹)(²)(³)                                         | optional (⁵) | 25             |
 | `email`      | Contact email        | string |                                                   | required (⁵) | 50             |
 
 ## `package` object structure
@@ -60,6 +60,8 @@
 (⁵) For the `shipTo` address, only the `country` and `email` fields are required; all others are optional and can be omitted (they will be ignored);
 
 (⁶) Any value using a fractional part must use a period as the decimal separator;
+
+(⁹) Non numeric values will be discarded.
 
 ---
 
